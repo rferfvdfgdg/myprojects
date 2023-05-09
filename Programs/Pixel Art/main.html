@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+
+        @font-face {font-family: Retro; src: url("images/RetroFont.ttf")}
+
+        input {
+            border: solid #071625 4px;
+            background-color: #2e363e;
+            font-family: Retro;
+            color: #ced4db;
+            width: 88px;
+            height: 30px;
+        }
+
+        input.color {
+            width: 100px;
+            height: 100px;
+            outline-color: #000000;
+        }
+
+        ::-webkit-color-swatch {
+            border-color: #2e363e;
+        }
+
+    </style>
+
+</head>
+
+<body style="background-color: #2d3e4b;">
+    
+    <input type="color" name="Size:" class="color" id="color" style="position: absolute; left: 832px;">     
+    <input type="number" name="Size:" id="size" style="position: absolute; left: 832px; top: 112px;">
+    <input type="button" id="pen" style="position: absolute; left: 4px; width: 92px; height: 92px;">
+    <input type="button" id="eraser" style="position: absolute; left: 4px; top: 104px; width: 92px; height: 92px;">
+
+    <script type="text/javascript" src="etc/classes.js"></script> 
+    <script type="text/javascript" src="etc/render.js"></script> 
+    <script type="text/javascript" src="code.js"></script> 
+    <script type="text/javascript" src="etc/start.js"></script> 
+
+</body>
